@@ -1,6 +1,6 @@
 var userData = [{
 name: "Ahmed",
-photo: "https://pbs.twimg.com/profile_images/691785039043022849/oWsy8LNR.jpg",
+photo: "http://i3.mirror.co.uk/incoming/article5135243.ece/ALTERNATES/s615b/Niaz-Ahmed.jpg",
 scores: [
 "5",
 "1",
