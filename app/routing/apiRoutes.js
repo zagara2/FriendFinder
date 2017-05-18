@@ -15,22 +15,22 @@ var currentUser = friendsData[friendsData.length-1];
 
     for(var i=0; i<splicedArray.length; i++){
     var totalDifference = [] //array for total differences of each person
-    var totDifofI = math.abs(currentUser.score[1]-splicedArray[i].score[1])+
-    math.abs(currentUser.score[2]-splicedArray[i].score[2])+
-    math.abs(currentUser.score[3]-splicedArray[i].score[3])+
-    math.abs(currentUser.score[4]-splicedArray[i].score[4])+
-    math.abs(currentUser.score[5]-splicedArray[i].score[5])+
-    math.abs(currentUser.score[6]-splicedArray[i].score[6])+
-    math.abs(currentUser.score[7]-splicedArray[i].score[7])+
-    math.abs(currentUser.score[8]-splicedArray[i].score[8])+
-    math.abs(currentUser.score[9]-splicedArray[i].score[9])+
-    math.abs(currentUser.score[10]-splicedArray[i].score[10]); //total differnce per index
+    var totDifofI = Math.abs(currentUser.scores[1]-splicedArray[i].scores[1])+
+    Math.abs(currentUser.scores[2]-splicedArray[i].scores[2])+
+    Math.abs(currentUser.scores[3]-splicedArray[i].scores[3])+
+    Math.abs(currentUser.scores[4]-splicedArray[i].scores[4])+
+    Math.abs(currentUser.scores[5]-splicedArray[i].scores[5])+
+    Math.abs(currentUser.scores[6]-splicedArray[i].scores[6])+
+    Math.abs(currentUser.scores[7]-splicedArray[i].scores[7])+
+    Math.abs(currentUser.scores[8]-splicedArray[i].scores[8])+
+    Math.abs(currentUser.scores[9]-splicedArray[i].scores[9])+
+    Math.abs(currentUser.scores[10]-splicedArray[i].scores[10]); //total differnce per index
     totalDifference.push(totDifofI);
 
     var rearray = []; //array for sorting person based off total differences
     rearray.push({
-      compositeScore: totalDifference[i];
-      person: splicedArray[i];
+      compositeScore: totalDifference[i],
+      person: splicedArray[i]
     })
     rearray.sort(function(a, b){
       return a.compositeScore-b.compositeScore;
