@@ -38,7 +38,7 @@ The survey page should look like this:
 ![Survey](/app/public/friendfinder.JPG)
 
 The modal displaying the friend who is the "best match" should look like this:
-![Modal](/assets/images/modal.JPG)
+![Modal](/app/public/modal.JPG)
 
 ## Future Plans for Improvement
 
