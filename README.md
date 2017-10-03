@@ -46,4 +46,5 @@ The modal displaying the friend who is the "best match" should look like this:
 * Make it so that users cannot click the "submit" button more than once when they are on the survey page (i.e., make it so that they cannot submit the same survey twice). 
 * Possibly redirect users elsewhere (not sure where, possibly back to the homepage or to a blank copy of the survey) after they close the modal displaying the "best match" friend. Maybe put buttons in the modal with links to either of these options.
 * Because the "submit" button can currently be clicked more than once on the survey page, some users' data are in the API multiple times. This doesn't affect the algorithm's ability to determine matches, so it is not important, but I would like to add a "delete" route to the API routing so that I can clean the existing duplicates out. 
+* Give the CSS design a little more individualistic flair, so it is not just a boring standard Bootstrap layout. 
 
